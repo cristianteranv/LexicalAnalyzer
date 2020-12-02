@@ -1,5 +1,5 @@
 # LexicalAnalyzer
-Simple lexical analyzer that recognizes tokens for a made up programming language.
+Lexical analyzer that recognizes tokens for a made up programming language.
 Reads from a file if provided as a command line argument or else from standard input. 
 Recognizes	PRINT, LET, IF, LOOP, BEGIN, END, ID, INT, STR, PLUS, MINUS, STAR, SLASH, BANG, LPAREN, RPAREN, SC, ERR, DONE as tokens.
 ERR is returned if a syntax error is recognized. DONE is returned if all of the input has been read with no errors.
